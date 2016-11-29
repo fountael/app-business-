@@ -1,4 +1,5 @@
 */
+
 .heading-font {
  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
  font-weight: 150;
@@ -41,21 +42,23 @@ hr.light {
 }
 h1,
 h2,
-h4,
+h3,
 h5,
 h6 {
  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
  font-weight: 200;
  letter-spacing: 1px;
 }
-h3{
+h4{
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: white;
   text-align: center;
-
 }
+
+
+
 p {
  font-size: 18px;
  line-height: 1.5;
@@ -294,7 +297,8 @@ section.features .feature-item i {
  background: -webkit-linear-gradient(to left, #23719F, #516E83);
  background: linear-gradient(to left, #23719F, #516E83);
  -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent; }
+
 }
 @media (min-width: 992px) {
  section.features .device-container,
@@ -338,35 +342,11 @@ section.cta .overlay {
 }
 section.contact {
  text-align: center;
+ background-color: white;
 }
 section.contact h2 {
  margin-top: 0;
  margin-bottom: 25px;
-}
-
-section.contact ul.list-social {
- margin-bottom: 0;
-}
-section.contact ul.list-social li a {
- display: block;
- height: 80px;
- width: 80px;
- line-height: 80px;
- font-size: 40px;
- border-radius: 100%;
- color: white;
-}
-section.contact ul.list-social li.social-twitter a {
- background-color: #1da1f2;
-}
-section.contact ul.list-social li.social-twitter a:hover {
- background-color: #0d95e8;
-}
-section.contact ul.list-social li.social-facebook a {
- background-color: #3b5998;
-}
-section.contact ul.list-social li.social-facebook a:hover {
- background-color: #344e86;
 }
 
 footer {
@@ -430,6 +410,9 @@ footer ul li a.active {
 .btn-xl {
  padding: 15px 45px;
  font-size: 11px;
+ margin-top: 20px;
+     margin-right:460px;
+     float: right;
 }
 ::-moz-selection {
  color: white;
